@@ -34,16 +34,10 @@ Another component is to check for robots.txt of the website to check for disallo
 Search Engine collects parses and stores data to facilitate fast and accurate information retrieval. Based on keywords and links in a page, it develops a ranking system in order to render relevant pages when a something is searched, as opposed to searching every document one by one per search.
 
 <ins>Visualisation</ins>
+
 For the purpose of this project, we will simply visualise the ranks for each page using JavaScript’s D3 library. 
 
-Here is the guide provided as part of the project by the instructor:
-
-Simple Python Search Spider, Page Ranker, and Visualizer
-
-This is a set of programs that emulate some of the functions of a 
-search engine.  They store their data in a SQLITE3 database named
-'spider.sqlite'.  This file can be removed at any time to restart the
-process.   
+<ins>Here is the official guide provided as part of the project</ins>
 
 You should install the SQLite browser to view and modify 
 the databases from:
