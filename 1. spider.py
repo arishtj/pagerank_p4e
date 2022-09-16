@@ -1,5 +1,4 @@
 import sqlite3
-from turtle import delay
 import urllib.error
 import ssl
 from urllib.parse import urljoin
@@ -7,6 +6,7 @@ from urllib.parse import urlparse
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import time # can remove if needed. Used to see the some of the debugging processes better while the script is running
+
 # Ignore SSL certificate errors
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
